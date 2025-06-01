@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página com JavaScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    h1 {
+      color: #f60000;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: rgb(214, 210, 210);
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    p {
+      font-size: 18px;
+      margin-top: 20px;
+      color:aquamarine;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bem-vindo à Página</h1>
+  <button onclick="mostrarMensagem()">Clique aqui</button>
+  <p id="mensagem"></p>
+
+  <script>
+    function mostrarMensagem() {
+      document.getElementById('mensagem').textContent = 'Você clicou no botão! 🎉';
+    }
+  </script>
+<hr>
+<a href="index35.html">N 34</a>
+</body>
+</html>
